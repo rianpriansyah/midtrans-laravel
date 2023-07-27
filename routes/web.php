@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/donation', 'DonationController@index');
+Route::post('/donation', 'DonationController@store');
