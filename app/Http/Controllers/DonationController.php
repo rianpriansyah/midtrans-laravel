@@ -25,7 +25,7 @@ class DonationController extends Controller
                 'donor_email' => $request->donor_email,
                 'donation_type' => $request->donation_type,
                 'amount' => floatval($request->amount),
-                'note' => $request->note
+                'note' => $request->note,
             ]);
 
             $payload = [
